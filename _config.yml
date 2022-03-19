@@ -97,6 +97,30 @@ content:
           - Lead product management, commercial and industrial designer
           - Raised 690M IDR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
   
+      - layout: left
+        title: PT.PLN Persero
+        link: portal.pln.co.id
+        # link_text: boringcompany.com
+        sub_title: Co-Founder and producy lead
+        caption: Sept 2016 - Aug 2019
+        quote: >
+          State-owned electricity utility
+        description: | # this will include new lines to allow paragraphs
+        - Designed a contingency plan to maneuver the substation distributor energy
+        - Analyzed the backup trip on a single line diagram for durability in the system
+      
+      - layout: left
+        title: PT. Bukaka Teknik Utama
+        link: bukaka.com
+        # link_text: boringcompany.com
+        sub_title: Co-Founder and producy lead
+        caption: Sept 2016 - Aug 2019
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+        - Focus-group discussion in micro-hydroelectric power plant Bukaka group at PT Cisanggiri and PT Cisono
+        - Analyzed the problem of the generator system to maximize the performancesR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
+  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
