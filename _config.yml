@@ -108,18 +108,18 @@ content:
         caption: Sep 2019 - Aug 2021
         sub_title: M.Sc. Mechanical Engineering
         quote: >
-          Relevant Coursework: Data science, trend forecasting, strategic planning, electric power engineering
+          Data science, trend forecasting, strategic planning, electric power engineering
         description: | # this will include new lines to allow paragraphs
-          Activities: Renewable energy research group, MIKTA United Nation Young leader as Indonesia delegation
+          Renewable energy research group, MIKTA United Nation Young leader as Indonesia delegation
 
       - layout: left
         title: University of Indonesia
         caption: Sep 2015 - Aug 2019
         sub_title: B.E. Electrical Engineering
         quote: >
-          Relevant Coursework: Electrical engineering, project leader, entrepreneurship
+          Electrical engineering, project leader, entrepreneurship
         description: | # this will include new lines to allow paragraphs
-          Activities: Electric Power and Energy Materials Research Group (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI), robotics team, electrical engineering student’s council (IME)
+          Electric Power and Energy Materials Research Group (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI), robotics team, electrical engineering student’s council (IME)
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
