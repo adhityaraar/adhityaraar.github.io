@@ -74,52 +74,52 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 아이티공간 ITS Co., Ltd.
+        title: 아이티공간 ITS Co., Ltd., South Korea
         link: itsroom.co.kr/eng
         # link_text: boringcompany.com
         sub_title: Data Science
         caption: Oct 2021 - Present
         quote: >
-          As consultant machine and maintenance based in South Korea
+          Company with consultant and maintenance based in machine facilities
         description: | # this will include new lines to allow paragraphs
           - Data analysis of maintenance and predictive industrial machinery
           - Developing and implementing an end-to-end machine learning system
 
       - layout: left
-        title: PT. POCI Otomasi Cerdas Indonesia
+        title: PT. POCI Otomasi Cerdas Indonesia, Indonesia
         link: replus.co
         # link_text: boringcompany.com
         sub_title: Co-Founder and producy lead
         caption: Sept 2016 - Aug 2019
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Company with internet of things based in energy and home appliances
         description: | # this will include new lines to allow paragraphs
           - Lead product management, commercial and industrial designer
           - Raised 690M IDR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
   
       - layout: left
-        title: PT.PLN Persero
+        title: PT.PLN Persero, Indonesia
         link: portal.pln.co.id
         # link_text: boringcompany.com
         sub_title: Co-Founder and producy lead
         caption: Sept 2016 - Aug 2019
         quote: >
-          State-owned electricity utility
+          Company with state-owned electricity utility in Indonesia
         description: | # this will include new lines to allow paragraphs
-        - Designed a contingency plan to maneuver the substation distributor energy
-        - Analyzed the backup trip on a single line diagram for durability in the system
+          - Designed a contingency plan to maneuver the substation distributor energy
+          - Analyzed the backup trip on a single line diagram for durability in the system
       
       - layout: left
-        title: PT. Bukaka Teknik Utama
+        title: PT. Bukaka Teknik Utama, Indonesia
         link: bukaka.com
         # link_text: boringcompany.com
         sub_title: Co-Founder and producy lead
         caption: Sept 2016 - Aug 2019
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Company with 
         description: | # this will include new lines to allow paragraphs
-        - Focus-group discussion in micro-hydroelectric power plant Bukaka group at PT Cisanggiri and PT Cisono
-        - Analyzed the problem of the generator system to maximize the performancesR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
+          - Focus-group discussion in micro-hydroelectric power plant Bukaka group at PT Cisanggiri and PT Cisono
+          - Analyzed the problem of the generator system to maximize the performancesR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -129,23 +129,18 @@ content:
         caption: 2019 - 2021
         sub_title: M.Sc. Mechanical Engineering
         quote: >
-          Relevant Coursework: Data science, trend forecasting, strategic
-          planning, electric power engineering
+          Relevant Coursework: Data science, trend forecasting, strategic planning, electric power engineering
         description: | # this will include new lines to allow paragraphs
-          Activities: Renewable energy research group, MIKTA United Nation
-          Young leader as Indonesia delegation
+          Activities: Renewable energy research group, MIKTA United Nation Young leader as Indonesia delegation
 
       - layout: left
         title: University of Indonesia
         caption: 2015 - 2019
         sub_title: B.E. Electrical Engineering
         quote: >
-          Relevant Coursework: Electrical engineering, project leader,
-          entrepreneurship
+          Relevant Coursework: Electrical engineering, project leader, entrepreneurship
         description: | # this will include new lines to allow paragraphs
-          Activities: Electric Power and Energy Materials Research Group
-          (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI),
-          robotics team, electrical engineering student’s council (IME)
+          Activities: Electric Power and Energy Materials Research Group (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI), robotics team, electrical engineering student’s council (IME)
 
   - title: A Little More About Me
     layout: text
