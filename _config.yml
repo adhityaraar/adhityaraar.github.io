@@ -87,7 +87,7 @@ content:
         quote: >
           State-owned electricity utility
         description: | # this will include new lines to allow paragraphs
-          Design contingency plan to maneuver energy distribution in substation durability for the backup trip single line diagram in the system
+          - Design contingency plan to maneuver energy distribution in substation durability for the backup trip single line diagram in the system
       
       - layout: left
         title: PT. Bukaka Teknik Utama
@@ -98,7 +98,7 @@ content:
         quote: >
           Architectural and Structural Metals Manufacturing Industry
         description: | # this will include new lines to allow paragraphs
-          Analyze micro hydroelectric power plant to increase the performance of the generator at PT Cisanggiri and PT Cisono
+          - Analyze micro hydroelectric power plant to increase the performance of the generator at PT Cisanggiri and PT Cisono
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
