@@ -78,51 +78,62 @@ content:
         link: itsroom.co.kr/eng
         # link_text: boringcompany.com
         sub_title: Data Science
-        caption: October 2021 - Present
+        caption: Oct 2021 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          As consultant machine and maintenance based in South Korea
         description: | # this will include new lines to allow paragraphs
-            - Data analysis of maintenance and predictive industrial machinery
-            - Developing and implementing an end-to-end machine learning system
+          - Data analysis of maintenance and predictive industrial machinery
+          - Developing and implementing an end-to-end machine learning system
 
       - layout: left
-        title: 아이티공간 ITS Co., Ltd.
-        link: itsroom.co.kr/eng
+        title: PT. POCI Otomasi Cerdas Indonesia
+        link: replus.co
         # link_text: boringcompany.com
-        sub_title: Data Science
-        caption: October 2021 - Present
+        sub_title: Co-Founder and producy lead
+        caption: Sept 2016 - Aug 2019
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Data analysis of maintenance and predictive industrial machinery
-            - Developing and implementing an end-to-end machine learning system
+          - Lead product management, commercial and industrial designer
+          - Raised 690M IDR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Kookmin University
+        caption: 2019 - 2021
+        sub_title: M.Sc. Mechanical Engineering
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Relevant Coursework: Data science, trend forecasting, strategic
+          planning, electric power engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Activities: Renewable energy research group, MIKTA United Nation
+          Young leader as Indonesia delegation
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        - layout: left
+        title: University of Indonesia
+        caption: 2015 - 2019
+        sub_title: B.E. Electrical Engineering
+        quote: >
+          Relevant Coursework: Electrical engineering, project leader,
+          entrepreneurship
+        description: | # this will include new lines to allow paragraphs
+          Activities: Electric Power and Energy Materials Research Group
+          (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI),
+          robotics team, electrical engineering student’s council (IME)
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
+      Alongside my interests in energy and data science some of my other interests and hobbies are:
+      - Drawing
+      - Sculpting
+      - Traveling
+ 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg)
+# https://github.com/adhityaraar/adhityaraar.github.io/blob/main/images/landscape-trees.jpg
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
