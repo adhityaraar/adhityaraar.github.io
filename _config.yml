@@ -51,25 +51,6 @@ about_content: | # this will include new lines to allow paragraphs
   With background in electrical and mechanical engineering. He has strong expertise in data science, engineering, project leader, commercial and industrial designer. During his college, he was assigned many projects related to artificial intelligence implementation, published 3 international journals, and attended 7 International conferences. As an extrovert person, He is also comfortable working under the pressure of deadline with target condition and enjoy working on his initiative or team.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: My Portfolio
-        link: https://www.notion.so/adhityaraar/Hi-This-is-My-Portfolio-6e56630c27c34f42bb07fb8dfc975b3b
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Mostly project I created during my college and company
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way to learn as I have big interest in technology enthusiast and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -80,43 +61,43 @@ content:
         sub_title: Data Science
         caption: Oct 2021 - Present
         quote: >
-          Company with consultant and maintenance based in machine facilities
+          Consultant and maintenance industial machine facilities
         description: | # this will include new lines to allow paragraphs
           - Data analysis of maintenance and predictive industrial machinery
           - Developing and implementing an end-to-end machine learning system
 
       - layout: left
-        title: PT. POCI Otomasi Cerdas Indonesia, Indonesia
+        title: PT. POCI Otomasi Cerdas Indonesia
         link: replus.co
         # link_text: boringcompany.com
-        sub_title: Co-Founder and producy lead
+        sub_title: Co-Founder, Indonesia
         caption: Sept 2016 - Aug 2019
         quote: >
-          Company with internet of things based in energy and home appliances
+          Internet of things based for home appliances
         description: | # this will include new lines to allow paragraphs
           - Lead product management, commercial and industrial designer
           - Raised 690M IDR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
   
       - layout: left
-        title: PT.PLN Persero, Indonesia
+        title: PT.PLN Persero
         link: portal.pln.co.id
         # link_text: boringcompany.com
-        sub_title: Co-Founder and producy lead
-        caption: Sept 2016 - Aug 2019
+        sub_title: Eng. Intern, Indonesia
+        caption: Jul 2018 - Aug 2018
         quote: >
-          Company with state-owned electricity utility in Indonesia
+          State-owned electricity utility
         description: | # this will include new lines to allow paragraphs
           - Designed a contingency plan to maneuver the substation distributor energy
           - Analyzed the backup trip on a single line diagram for durability in the system
       
       - layout: left
-        title: PT. Bukaka Teknik Utama, Indonesia
+        title: PT. Bukaka Teknik Utama
         link: bukaka.com
         # link_text: boringcompany.com
-        sub_title: Co-Founder and producy lead
-        caption: Sept 2016 - Aug 2019
+        sub_title: Eng. Intern, Indonesia
+        caption: Jan 2018 - Feb 2018
         quote: >
-          Company with 
+          Architectural and Structural Metals Manufacturing Industry
         description: | # this will include new lines to allow paragraphs
           - Focus-group discussion in micro-hydroelectric power plant Bukaka group at PT Cisanggiri and PT Cisono
           - Analyzed the problem of the generator system to maximize the performancesR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
@@ -142,13 +123,32 @@ content:
         description: | # this will include new lines to allow paragraphs
           Activities: Electric Power and Energy Materials Research Group (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI), robotics team, electrical engineering student’s council (IME)
 
-  - title: A Little More About Me
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: My Portfolio
+        link: https://www.notion.so/adhityaraar/Hi-This-is-My-Portfolio-6e56630c27c34f42bb07fb8dfc975b3b
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Mostly project I created during my college and company
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way to learn as I have big interest in technology enthusiast and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio.
+
+  - title: More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in energy and data science some of my other interests and hobbies are:
       - Drawing
-      - Sculpting
-      - Traveling
+      - Travel
+      - Photographer
 
 # Footer
 footer_show_references: true
