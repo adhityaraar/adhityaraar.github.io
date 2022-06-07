@@ -54,28 +54,19 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: #Projects # Title for the section
-    # layout: list # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        # title: My Portfolio
-        # link: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
-        # link: https://www.linkedin.com/in/adhityaraar/
-        # link_text: Project Website
         additional_links:
           - title: Publication
             icon: fab fa-github
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
-          - title: Renewable energy website
-            icon: fab fa-github
-            url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
-          - title: Electric power
-            icon: fab fa-github
-            url: http://www.ee.ui.ac.id/epes/emat/member/raden
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          # - title: Renewable energy website
           #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   Please kindly to see the project and publish paper on the link above
+          #   url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
+          # - title: Electric power
+          #   icon: fab fa-github
+          #   url: http://www.ee.ui.ac.id/epes/emat/member/raden
 
 # Footer
 footer_show_references: False
