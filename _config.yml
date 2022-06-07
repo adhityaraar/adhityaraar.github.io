@@ -54,10 +54,10 @@ content:
             icon: fas fa-books
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
           - title: Renewable energy website
-            icon: fas fa-globe
+            icon: fas fa-graduation-cap
             url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
           - title: Electric power
-            icon: fas fa-globe
+            icon: fas fa-graduation-cap
             url: http://www.ee.ui.ac.id/epes/emat/member/raden
 
 # Footer
