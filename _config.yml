@@ -61,12 +61,12 @@ content:
           - title: Publication
             icon: fab fa-github
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
-          # - title: Renewable energy website
-          #   icon: fab fa-github
-          #   url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
-          # - title: Electric power
-          #   icon: fab fa-github
-          #   url: http://www.ee.ui.ac.id/epes/emat/member/raden
+          - title: Renewable energy website
+            icon: fab fa-github
+            url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
+          - title: Electric power
+            icon: fab fa-github
+            url: http://www.ee.ui.ac.id/epes/emat/member/raden
 
 # Footer
 footer_show_references: False
