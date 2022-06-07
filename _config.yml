@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Raden Adhitya #Raden Adhitya Ardiansyah Ramadhan
+name: Raden Adhitya Ardiansyah Ramadhan
 title: Energy Data Science
 email: ardiansyah.raar@gmail.com
 # website: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en #this line was website
@@ -51,13 +51,13 @@ content:
       - layout: top-middle
         additional_links:
           - title: Publication
-            icon: fab fa-github
+            icon: fas fa-globe
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
           - title: Renewable energy website
-            icon: fab fa-github
+            icon: fas fa-globe
             url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
           - title: Electric power
-            icon: fab fa-github
+            icon: fas fa-globe
             url: http://www.ee.ui.ac.id/epes/emat/member/raden
 
 # Footer
