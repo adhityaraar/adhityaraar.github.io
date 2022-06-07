@@ -50,101 +50,101 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, this is Adhit!
   Highly motivated fresh graduate with an outstanding background in electrical and mechanical engineering. He has strong expertise in data science, engineering, project leader, commercial and industrial designer. During his college, he was assigned many projects related to artificial intelligence implementation, published 3 international journals, and attended 7 International conferences. As an extrovert person, He is also comfortable working under the pressure of deadline with target condition and enjoy working on his initiative or team.
 
-content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 아이티공간 ITS Co., Ltd.
-        link: itsroom.co.kr/eng
-        # link_text: boringcompany.com
-        sub_title: Data Science
-        caption: Oct 2021 - Present
-        quote: >
-          Consultant and maintenance industial machine facilities
-        description: | # this will include new lines to allow paragraphs
-          - Data analysis of maintenance and predictive industrial machinery
-          - Developing and implementing an end-to-end machine learning system
+# content:
+#   - title: Experience # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         title: 아이티공간 ITS Co., Ltd.
+#         link: itsroom.co.kr/eng
+#         # link_text: boringcompany.com
+#         sub_title: Data Science
+#         caption: Oct 2021 - Present
+#         quote: >
+#           Consultant and maintenance industial machine facilities
+#         description: | # this will include new lines to allow paragraphs
+#           - Data analysis of maintenance and predictive industrial machinery
+#           - Developing and implementing an end-to-end machine learning system
 
-      - layout: left
-        title: PT. POCI Otomasi Cerdas Indonesia
-        link: replus.co
-        # link_text: boringcompany.com
-        sub_title: Co-Founder, Indonesia
-        caption: Sept 2016 - Aug 2019
-        quote: >
-          Internet of things based for home appliances
-        description: | # this will include new lines to allow paragraphs
-          - Lead product management, commercial and industrial designer
-          - Raised 690M IDR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
+#       - layout: left
+#         title: PT. POCI Otomasi Cerdas Indonesia
+#         link: replus.co
+#         # link_text: boringcompany.com
+#         sub_title: Co-Founder, Indonesia
+#         caption: Sept 2016 - Aug 2019
+#         quote: >
+#           Internet of things based for home appliances
+#         description: | # this will include new lines to allow paragraphs
+#           - Lead product management, commercial and industrial designer
+#           - Raised 690M IDR (Equivalent to 50k USD) through competitions and sponsors including DIIB UI, Ministry of Research and Technology, Astra International, DIGITARAYA, and Google Cloud.
   
-      - layout: left
-        title: PT.PLN Persero
-        link: portal.pln.co.id
-        # link_text: boringcompany.com
-        sub_title: Eng. Intern, Indonesia
-        caption: Jul 2018 - Aug 2018
-        quote: >
-          State-owned electricity utility
-        description: | # this will include new lines to allow paragraphs
-          - Design contingency plan to maneuver energy distribution in substation durability for the backup trip single line diagram in the system
+#       - layout: left
+#         title: PT.PLN Persero
+#         link: portal.pln.co.id
+#         # link_text: boringcompany.com
+#         sub_title: Eng. Intern, Indonesia
+#         caption: Jul 2018 - Aug 2018
+#         quote: >
+#           State-owned electricity utility
+#         description: | # this will include new lines to allow paragraphs
+#           - Design contingency plan to maneuver energy distribution in substation durability for the backup trip single line diagram in the system
       
-      - layout: left
-        title: PT. Bukaka Teknik Utama
-        link: bukaka.com
-        # link_text: boringcompany.com
-        sub_title: Eng. Intern, Indonesia
-        caption: Jan 2018 - Feb 2018
-        quote: >
-          Architectural and Structural Metals Manufacturing Industry
-        description: | # this will include new lines to allow paragraphs
-          - Analyze micro hydroelectric power plant to increase the performance of the generator at PT Cisanggiri and PT Cisono
+#       - layout: left
+#         title: PT. Bukaka Teknik Utama
+#         link: bukaka.com
+#         # link_text: boringcompany.com
+#         sub_title: Eng. Intern, Indonesia
+#         caption: Jan 2018 - Feb 2018
+#         quote: >
+#           Architectural and Structural Metals Manufacturing Industry
+#         description: | # this will include new lines to allow paragraphs
+#           - Analyze micro hydroelectric power plant to increase the performance of the generator at PT Cisanggiri and PT Cisono
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Kookmin University
-        caption: Sep 2019 - Aug 2021
-        sub_title: M.Sc. Mechanical Engineering
-        quote: >
-          Data science, trend forecasting, strategic planning, electric power engineering
-        description: | # this will include new lines to allow paragraphs
-          Renewable energy research group, MIKTA United Nation Young leader as Indonesia delegation
+#   - title: Education # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         title: Kookmin University
+#         caption: Sep 2019 - Aug 2021
+#         sub_title: M.Sc. Mechanical Engineering
+#         quote: >
+#           Data science, trend forecasting, strategic planning, electric power engineering
+#         description: | # this will include new lines to allow paragraphs
+#           Renewable energy research group, MIKTA United Nation Young leader as Indonesia delegation
 
-      - layout: left
-        title: University of Indonesia
-        caption: Sep 2015 - Aug 2019
-        sub_title: B.E. Electrical Engineering
-        quote: >
-          Electrical engineering, project leader, entrepreneurship
-        description: | # this will include new lines to allow paragraphs
-          Electric Power and Energy Materials Research Group (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI), robotics team, electrical engineering student’s council (IME)
+#       - layout: left
+#         title: University of Indonesia
+#         caption: Sep 2015 - Aug 2019
+#         sub_title: B.E. Electrical Engineering
+#         quote: >
+#           Electrical engineering, project leader, entrepreneurship
+#         description: | # this will include new lines to allow paragraphs
+#           Electric Power and Energy Materials Research Group (EMAT), Institute of Electrical and Electronics Engineers (IEEE-UI), robotics team, electrical engineering student’s council (IME)
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: My Portfolio
-        link: https://www.notion.so/adhityaraar/Hi-This-is-My-Portfolio-6e56630c27c34f42bb07fb8dfc975b3b
-        # link_text: Project Website
-        additional_links:
-          - title:  github.com/adhityaraar
-            icon: fab fa-github
-            url: https://github.com/adhityaraar
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Please kindly to see the project and publish paper on the link above
+#   - title: Projects # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: top-middle
+#         title: My Portfolio
+#         link: https://www.notion.so/adhityaraar/Hi-This-is-My-Portfolio-6e56630c27c34f42bb07fb8dfc975b3b
+#         # link_text: Project Website
+#         additional_links:
+#           - title:  github.com/adhityaraar
+#             icon: fab fa-github
+#             url: https://github.com/adhityaraar
+#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#           #   icon: fab fa-github
+#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#         quote: >
+#           Please kindly to see the project and publish paper on the link above
           
-  - title: More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in energy and data science some of my other interests and hobbies are:
-      - Drawing
-      - Travel
-      - Photographer
+#   - title: More About Me
+#     layout: text
+#     content: | # this will include new lines to allow paragraphs
+#       Alongside my interests in energy and data science some of my other interests and hobbies are:
+#       - Drawing
+#       - Travel
+#       - Photographer
 
 # Footer
 footer_show_references: False
