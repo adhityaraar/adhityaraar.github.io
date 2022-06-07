@@ -57,7 +57,7 @@ content:
             icon: fas fa-user-graduate
             url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
           - title: Publication
-            icon: fas fa-graduation-cap
+            icon: fas fa-book
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
 
 # Footer
