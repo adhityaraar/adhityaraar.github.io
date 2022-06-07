@@ -6,15 +6,15 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Raden Adhitya Ardiansyah Ramadhan
-title: Energy and Data Science
+name: Hi, this is Adhit! #Raden Adhitya Ardiansyah Ramadhan
+title: Energy Data Science
 email: ardiansyah.raar@gmail.com
 # website: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en #this line was website
 
 # Dark Mode (true/false/never)
 darkmode: false
 # Social links
-# twitter_username: adhityaraar
+twitter_username: adhityaraar
 github_username: adhityaraar
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -22,11 +22,7 @@ github_username: adhityaraar
 # flickr_username: jekyll
 instagram_username: adhityaraar
 linkedin_username: adhityaraar
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+orcid_username: 0000-0003-0301-1090
 
 # Additional icon links
 # additional_links:
@@ -44,7 +40,7 @@ linkedin_username: adhityaraar
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Hi, this is Adhit!
+# about_title: Hi, this is Adhit!
 about_profile_image: images/Adhit_photo.JPG
 about_content: | # this will include new lines to allow paragraphs
   A highly motivated and hard-working person with strong expertise in engineering, data science, project leader, and business.
