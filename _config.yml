@@ -51,7 +51,7 @@ content:
       - layout: top-middle
         additional_links:
           - title: Publication
-            icon: fas fa-books
+            icon: fas fa-circle-book-open
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
           - title: Renewable energy website
             icon: fas fa-graduation-cap
