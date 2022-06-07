@@ -9,7 +9,7 @@ version: 2
 name: Raden Adhitya Ardiansyah Ramadhan
 title: Energy and Data Science
 email: ardiansyah.raar@gmail.com
-# website: linkedin.com/in/adhityaraar #this line was website
+website: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en #this line was website
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -48,7 +48,9 @@ linkedin_username: adhityaraar
 about_profile_image: images/Adhit_photo.JPG
 about_content: | # this will include new lines to allow paragraphs
   Hi, this is Adhit!
-  Highly motivated fresh graduate with an outstanding background in electrical and mechanical engineering. He has strong expertise in data science, engineering, project leader, commercial and industrial designer. During his college, he was assigned many projects related to artificial intelligence implementation, published 3 international journals, and attended 7 International conferences. As an extrovert person, He is also comfortable working under the pressure of deadline with target condition and enjoy working on his initiative or team.
+  A highly motivated and hard-working person with strong expertise in engineering, data science, project leader, and business.
+  During his college, he was assigned many projects related to artificial intelligence implementation, published 3 international journals, and attended 7 International conferences.
+  If you wish to contact me, you can reach me by email or through my social media handles.
 
 # content:
 #   - title: Experience # Title for the section
