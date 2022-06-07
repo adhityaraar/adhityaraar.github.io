@@ -53,8 +53,8 @@ about_content: | # this will include new lines to allow paragraphs
   If you wish to contact me, you can reach me by email or through my social media handles.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: #Projects # Title for the section
+    # layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: My Portfolio
@@ -63,7 +63,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title:  github.com/adhityaraar
-            icon: fab fa-github
+            icon: fab fa-school
             url: https://github.com/adhityaraar
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
