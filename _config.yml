@@ -54,16 +54,16 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: #Projects # Title for the section
-    # layout: list # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: My Portfolio
+        # title: My Portfolio
         link: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
-        link: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
+        link: https://www.linkedin.com/in/adhityaraar/
         # link_text: Project Website
         additional_links:
           - title:  github.com/adhityaraar
-            icon: fab fa-school
+            icon: fab fa-github
             url: https://github.com/adhityaraar
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
