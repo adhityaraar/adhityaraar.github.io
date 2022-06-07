@@ -18,7 +18,7 @@ darkmode: false
 linkedin_username: adhityaraar
 github_username: adhityaraar
 instagram_username: adhityaraar
-orcid_username: 0000-0003-0301-1090
+# orcid_username: 0000-0003-0301-1090
 
 # Additional icon links
 # additional_links:
@@ -51,7 +51,7 @@ content:
       - layout: top-middle
         additional_links:
           - title: Publication
-            icon: fas fa-globe
+            icon: fas fa-books
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
           - title: Renewable energy website
             icon: fas fa-globe
