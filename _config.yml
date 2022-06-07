@@ -44,17 +44,16 @@ linkedin_username: adhityaraar
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Hi, this is Adhit!
 about_profile_image: images/Adhit_photo.JPG
 about_content: | # this will include new lines to allow paragraphs
-  Hi, this is Adhit!
   A highly motivated and hard-working person with strong expertise in engineering, data science, project leader, and business.
   During his college, he was assigned many projects related to artificial intelligence implementation, published 3 international journals, and attended 7 International conferences.
   If you wish to contact me, you can reach me by email or through my social media handles.
 
 content:
   - title: #Projects # Title for the section
-    layout: text # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         additional_links:
@@ -69,7 +68,7 @@ content:
             url: http://www.ee.ui.ac.id/epes/emat/member/raden
 
 # Footer
-footer_show_references: True
+footer_show_references: False
 # references_title: References on request (Override references text)
 
 # Build settings
