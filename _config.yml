@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Hi, this is Adhit! #Raden Adhitya Ardiansyah Ramadhan
+name: Raden Adhitya #Raden Adhitya Ardiansyah Ramadhan
 title: Energy Data Science
 email: ardiansyah.raar@gmail.com
 # website: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en #this line was website
@@ -14,14 +14,10 @@ email: ardiansyah.raar@gmail.com
 # Dark Mode (true/false/never)
 darkmode: false
 # Social links
-twitter_username: adhityaraar
-github_username: adhityaraar
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: adhityaraar
+# twitter_username: adhityaraar
 linkedin_username: adhityaraar
+github_username: adhityaraar
+instagram_username: adhityaraar
 orcid_username: 0000-0003-0301-1090
 
 # Additional icon links
@@ -40,9 +36,10 @@ orcid_username: 0000-0003-0301-1090
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: Hi, this is Adhit!
+about_title: Summary
 about_profile_image: images/Adhit_photo.JPG
 about_content: | # this will include new lines to allow paragraphs
+  Hi, this is Adhit!
   A highly motivated and hard-working person with strong expertise in engineering, data science, project leader, and business.
   During his college, he was assigned many projects related to artificial intelligence implementation, published 3 international journals, and attended 7 International conferences.
   If you wish to contact me, you can reach me by email or through my social media handles.
