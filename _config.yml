@@ -51,10 +51,10 @@ content:
     content:
       - layout: top-middle
         additional_links:
-          - title: Electric power
+          - title: University of Indonesia
             icon: fas fa-graduation-cap
             url: http://www.ee.ui.ac.id/epes/emat/member/raden
-          - title: Renewable energy website
+          - title: Kookmin University
             icon: fas fa-user-graduate
             url: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
           - title: Publication
