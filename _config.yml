@@ -39,9 +39,10 @@ instagram_username: adhityaraar
 about_title: Summary
 about_profile_image: images/Adhit_photo.JPG
 about_content: | # this will include new lines to allow paragraphs
-  Hi, My name is Adhit!
+  Hi, my name is Adhit! 
+  In Korea, my friend usually calls me 아디티아 예준 (read: Aditya Yejun).
   A highly motivated and hard-working person with strong expertise in engineering, data science, project leader, and business.
-  During my college, I was assigned many projects related to artificial intelligence implementation, published 3 international journals, and attended 7 International conferences.
+  During my college, I was assigned many projects related to artificial intelligence implementation, published in 3 international journals, and attended 7 International conferences.
   If you wish to contact me, you can reach me by email or through my social media handles.
 
 content:
