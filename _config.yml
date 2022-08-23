@@ -45,7 +45,7 @@ about_content: | # this will include new lines to allow paragraphs
   During my college, I was assigned many projects related to artificial intelligence implementation, published in 3 international journals, and attended 7 International conferences.
   If you wish to contact me, you can reach me by email or through my social media handles.
 
-content:
+content: 
   - title: #Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
