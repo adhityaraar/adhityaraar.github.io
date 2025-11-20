@@ -6,12 +6,13 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: default
+---
 
 <style>
   /* Make the three bottom icons bigger */
   h4 + p a {
     display: inline-block;
-    font-size: 1.8rem;      /* try 2rem or 2.2rem if you want even bigger */
+    font-size: 1.8rem;   /* try 2rem or 2.2rem if you want even bigger */
     margin: 0 0.7rem;
     vertical-align: middle;
   }
@@ -25,5 +26,4 @@ layout: default
   }
 </style>
 
-
----
+<!-- your existing content starts here -->
