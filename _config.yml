@@ -9,61 +9,147 @@ version: 2
 name: Raden Adhitya Ardiansyah Ramadhan
 title: AI Engineer
 email: ardiansyah.raar@gmail.com
-# website: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en #this line was website
+website: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
+
 # Dark Mode (true/false/never)
 darkmode: false
+
 # Social links
-# twitter_username: adhityaraar
 linkedin_username: adhityaraar
 github_username: adhityaraar
 instagram_username: adhityaraar
-# orcid_username: 0000-0003-0301-1090
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-  # url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+additional_links:
+  - title: Google Scholar
+    icon: fas fa-book
+    url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
 
 # About Section
-about_title: Summary
+about_title: About Me
 about_profile_image: images/Adhit_photo.JPG
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Adhit! 
-  In Korea, my friend usually calls me "아디티아 예준" (read: Aditya Yejun).
-  A passionate and driven technology enthusiast with 7+ years of extensive experience in helping clients navigate evolving tech,
-  emphasizing effective communication and collaboration, and developing innovative customized solutions to meet specific goals.
-  I also published my works on the implementation of Artificial Intelligence in the energy sector in 3 international journals and attended 7 international conferences.
-  If you wish to contact me, you can reach me by email or through my social media handles. Thanks!
+about_content: |
+  Hi, my name is Adhit! In Korea, my friends call me "아디티아 예준" (Aditya Yejun).
 
-content: 
-  - title: #Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  I am an AI Engineer with 7+ years of experience helping clients navigate evolving technologies.
+  I specialize in designing and deploying end-to-end AI/ML solutions with a strong focus on the
+  energy sector, large language models (LLMs), and data-driven decision making.
+
+  I have published 3 peer-reviewed international journal articles on AI applications in the energy
+  sector and have presented at 7 international conferences. I hold dual graduate degrees from
+  the University of Indonesia and Kookmin University (Seoul, South Korea).
+
+  I thrive at the intersection of research and engineering — translating cutting-edge AI research
+  into production-grade systems that deliver real business impact.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: IBM
+        sub_title: AI Engineer
+        caption: 2023 – Present
+        description: |
+          Building and deploying enterprise AI solutions on IBM Cloud and watsonx platform.
+          Working closely with clients across industries to design LLM-based applications,
+          RAG pipelines, and automated machine learning workflows. Driving AI adoption through
+          proof-of-concept development, technical workshops, and solution architecture.
+
+      - layout: left
+        title: Kookmin University
+        link: https://relab.kookmin.ac.kr/people
+        link_text: RELab
+        sub_title: Research Assistant — Renewable Energy Lab
+        caption: 2021 – 2023
+        description: |
+          Conducted research on AI-driven forecasting and optimization for renewable energy systems.
+          Developed deep learning models for solar and wind power generation prediction.
+          Co-authored 3 international journal publications and presented at 7 international
+          conferences on AI applications in the energy sector.
+
+      - layout: left
+        title: University of Indonesia
+        link: http://www.ee.ui.ac.id/epes/emat/member/raden
+        link_text: EMAT Group
+        sub_title: Research Member — Electrical Power Engineering
+        caption: 2017 – 2021
+        description: |
+          Member of the Electrical Energy Management and Technology (EMAT) research group.
+          Focused on smart grid technologies, energy management systems, and the application
+          of machine learning to power systems analysis.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Kookmin University
+        sub_title: M.Sc. Electrical Engineering
+        caption: 2021 – 2023
+        description: |
+          Specialization in AI and renewable energy systems. Thesis focused on deep learning
+          approaches for energy forecasting and optimization.
+
+      - layout: left
+        title: University of Indonesia
+        sub_title: B.Sc. Electrical Engineering
+        caption: 2017 – 2021
+        description: |
+          Graduated from the Department of Electrical Engineering with a focus on power systems
+          and intelligent systems. Active member of the EMAT research group.
+
+  - title: Skills
+    layout: text
+    content: |
+      **AI / Machine Learning**
+      Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Deep Learning (PyTorch, TensorFlow),
+      Time Series Forecasting, Computer Vision, AutoML
+
+      **Data Engineering & MLOps**
+      Python, SQL, Apache Spark, MLflow, Docker, Kubernetes, CI/CD pipelines
+
+      **Cloud & Platforms**
+      IBM watsonx, IBM Cloud, AWS, Azure, GitHub Actions
+
+      **Tools & Frameworks**
+      LangChain, LlamaIndex, Hugging Face, scikit-learn, pandas, NumPy, Jupyter
+
+      **Languages**
+      Indonesian (native), English (professional), Korean (intermediate)
+
+  - title: Publications & Conferences
+    layout: list
     content:
       - layout: top-middle
+        title: Research Output
+        description: |
+          3 peer-reviewed international journal articles on the application of Artificial Intelligence
+          in the energy sector, covering topics including renewable energy forecasting, smart grid
+          optimization, and energy management using deep learning.
+
+          Presented research findings at 7 international conferences across Asia and Europe.
+
         additional_links:
-          - title: University of Indonesia
-            icon: fas fa-graduation-cap
-            url: http://www.ee.ui.ac.id/epes/emat/member/raden
-          - title: Kookmin University
-            icon: fas fa-user-graduate
-            url: https://relab.kookmin.ac.kr/people
-          - title: Publication
+          - title: Google Scholar Profile
             icon: fas fa-book
             url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
+          - title: University of Indonesia — EMAT
+            icon: fas fa-graduation-cap
+            url: http://www.ee.ui.ac.id/epes/emat/member/raden
+          - title: Kookmin University — RELab
+            icon: fas fa-user-graduate
+            url: https://relab.kookmin.ac.kr/people
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Outside of work, I enjoy:
+      - Exploring new AI research and keeping up with the latest in LLMs and generative AI
+      - Traveling and experiencing different cultures — especially having lived in both Indonesia and South Korea
+      - Badminton, hiking, and anything that gets me outdoors
 
 # Footer
-footer_show_references: False
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -73,4 +159,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
