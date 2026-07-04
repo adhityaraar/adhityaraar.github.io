@@ -185,14 +185,6 @@ content:
 
           View full list on [Google Scholar](https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en)
 
-  - title: A Little More About Me
-    layout: text
-    content: |
-      Outside of work, I enjoy:
-      - Exploring new AI research and keeping up with the latest in LLMs and generative AI
-      - Traveling and experiencing different cultures — having lived in Indonesia, South Korea, and beyond
-      - Badminton, hiking, and anything that gets me outdoors
-
 # Footer
 footer_show_references: false
 

@@ -3,3 +3,18 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Increase additional_links icon size
+.additional-links {
+  a {
+    font-size: 1.4rem;
+
+    i {
+      font-size: 1.4rem;
+    }
+
+    span {
+      font-size: 0.85rem;
+    }
+  }
+}
