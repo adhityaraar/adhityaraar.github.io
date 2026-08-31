@@ -4,6 +4,18 @@
 
 @import 'modern-resume-theme';
 
+// Vertically center icons row with the name/title on the left
+.header-container .row {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 // Increase additional_links icon size
 .additional-links {
   a {
