@@ -23,6 +23,9 @@ additional_links:
   - title: Email
     icon: fas fa-envelope
     url: mailto:ardiansyah.raar@gmail.com
+  - title: Credly
+    icon: fas fa-certificate
+    url: https://www.credly.com/users/adhityaraar
 
 # About Section
 about_title: About Me
@@ -30,13 +33,17 @@ about_profile_image: images/Adhit_photo.JPG
 about_content: |
   Hi, my name is Adhit! In Korea, my friends call me "아디티아 예준" (Aditya Yejun).
 
-  I am a Data and AI Engineer with 7+ years of experience across AI engineering, data science, and product development.
-  I specialize in designing and deploying enterprise AI solutions — from generative AI and LLMs on IBM watsonx,
-  to MLOps pipelines, fault detection systems, and renewable energy forecasting models.
+  A passionate Data and AI Engineer with 7+ years of experience in designing and implementing
+  AI-powered solutions across enterprise environments, emphasizing effective communication and
+  collaboration, and developing innovative customized solutions to meet specific goals.
 
-  I have published 3 peer-reviewed international journal articles on AI applications in the energy sector
-  and presented at 7 international conferences. I hold an M.Sc. in Mechanical Engineering (Energy Data Science)
-  from Kookmin University, Seoul, and a B.Eng. in Electrical Engineering from the University of Indonesia.
+  I specialize in designing and deploying enterprise AI solutions — from generative AI and LLMs
+  on IBM watsonx, to MLOps pipelines, fault detection systems, and renewable energy forecasting models.
+
+  I have published 3 peer-reviewed international journal articles on AI applications in the energy
+  sector and presented at 7 international conferences. I hold an M.Sc. in Mechanical Engineering
+  (Energy Data Science) from Kookmin University, Seoul, and a B.Eng. in Electrical Engineering
+  from the University of Indonesia.
 
 content:
   - title: Experience
