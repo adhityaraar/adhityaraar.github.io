@@ -9,7 +9,6 @@ version: 2
 name: Raden Adhitya Ardiansyah Ramadhan
 title: Data and AI Engineer
 email: ardiansyah.raar@gmail.com
-website: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -18,12 +17,7 @@ darkmode: false
 linkedin_username: adhityaraar
 github_username: adhityaraar
 instagram_username: adhityaraar
-
-# Additional icon links
-additional_links:
-  - title: Google Scholar
-    icon: fas fa-book
-    url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
+googlescholar_username: FnMigTUAAAAJ&hl=en
 
 # About Section
 about_title: About Me
