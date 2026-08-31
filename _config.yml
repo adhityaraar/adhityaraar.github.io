@@ -23,9 +23,6 @@ additional_links:
   - title: Email
     icon: fas fa-envelope
     url: mailto:ardiansyah.raar@gmail.com
-  - title: Credly
-    icon: fas fa-certificate
-    url: https://www.credly.com/users/adhityaraar
 
 # About Section
 about_title: About Me
