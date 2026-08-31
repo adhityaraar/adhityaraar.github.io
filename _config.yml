@@ -1,1 +1,205 @@
+# Site
+repository: sproogen/resume-theme
 favicon: images/favicon.png
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Raden Adhitya Ardiansyah Ramadhan
+title: Data and AI Engineer
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+linkedin_username: adhityaraar
+github_username: adhityaraar
+instagram_username: adhityaraar
+googlescholar_username: FnMigTUAAAAJ&hl=en
+
+# Additional icon links
+additional_links:
+  - title: Email
+    icon: fas fa-envelope
+    url: mailto:ardiansyah.raar@gmail.com
+  - title: Credly
+    icon: fas fa-certificate
+    url: https://www.credly.com/users/adhityaraar
+
+# About Section
+about_title: About Me
+about_profile_image: images/Adhit_photo.JPG
+about_content: |
+  Hi, my name is Adhit! In Korea, my friends call me "아디티아 예준" (Aditya Yejun).
+
+  A passionate Data and AI Engineer with 7+ years of experience in designing and implementing
+  AI-powered solutions across enterprise environments, emphasizing effective communication and
+  collaboration, and developing innovative customized solutions to meet specific goals.
+
+  I specialize in designing and deploying enterprise AI solutions — from generative AI and LLMs
+  on IBM watsonx, to MLOps pipelines, fault detection systems, and renewable energy forecasting models.
+
+  I have published 3 peer-reviewed international journal articles on AI applications in the energy
+  sector and presented at 7 international conferences. I hold an M.Sc. in Mechanical Engineering
+  (Energy Data Science) from Kookmin University, Seoul, and a B.Eng. in Electrical Engineering
+  from the University of Indonesia.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: IBM
+        sub_title: Data and AI — Customer Success Engineer
+        caption: Jan 2026 – Present · Full-time
+        quote: >
+          Lead solution architecture, onboarding, and production enablement across hybrid, on-premises, and SaaS environments.
+        description: |
+          Lead solution architecture, onboarding, and production enablement across hybrid, on-premises, and SaaS
+          environments, removing technical blockers and ensuring secure, scalable operations aligned with customer
+          business objectives.
+
+          Drive post-sales technical success for IBM products across data platform, AI, and data security by
+          partnering closely with customers to translate business outcomes into actionable success plans,
+          adoption strategies, and measurable time-to-value.
+
+      - layout: left
+        title: IBM
+        sub_title: AI Engineer — Customer Engineer
+        caption: Oct 2023 – Jan 2026 · 2 yrs 4 mos · Jakarta, Indonesia
+        description: |
+          Provided customization of generative AI solutions with watsonx, leading the architectural process
+          to ensure alignment with client requirements and business objectives, driving innovation in AI
+          design and implementation.
+
+          Conducted ongoing research to remain current, developed POCs to validate and showcase the
+          feasibility of proposed AI solutions, and coordinated cross-functional teams to ensure alignment
+          with customer requirements and expectations.
+
+      - layout: left
+        title: Accenture
+        sub_title: Data Scientist — Strategy and Consulting
+        caption: Oct 2022 – Sep 2023 · 1 yr · Jakarta, Indonesia
+        description: |
+          Built and customized an open-source MLOps platform on Kubernetes with end-to-end CI/CD pipelines,
+          enabling a machine learning classification model to accurately identify and deliver targeted
+          promotional campaigns to the right users.
+
+          Led end-to-end integration and development of a chatbot solution, enhancing performance and
+          reliability through continuous monitoring, maintenance, and transactional message reporting to
+          drive customer engagement and revenue generation.
+
+      - layout: left
+        title: ITS
+        sub_title: Data Scientist — Innovation Growth
+        caption: Oct 2021 – Sep 2022 · 1 yr · Ulsan, South Korea
+        description: |
+          Researched and implemented ML models for fault detection, anomaly detection, and RUL estimation,
+          leveraging data exploration and visualization to identify distribution disparities and ensure
+          model resilience across varied operational environments.
+
+          Developed an automated threshold monitoring system using machine learning models to detect
+          industrial machinery alarms, preventing failures and enhancing overall operational reliability
+          and safety.
+
+      - layout: left
+        title: Kookmin University
+        link: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
+        link_text: Renewable Energy Lab
+        sub_title: Machine Learning Researcher — Research Assistant
+        caption: Sep 2019 – Aug 2021 · 2 yrs · Seoul, South Korea
+        description: |
+          Conducted methodological research comparing semi-empirical models based on satellite images,
+          NWP, ML, and deep learning models for power generation forecasting, integrating physical models
+          with supervised neural networks to achieve over 95% accuracy.
+
+          Published 3 international journal articles and participated in 7 international conferences
+          on machine learning applications in renewable energy.
+
+      - layout: left
+        title: Replus
+        sub_title: Co-Founder — Product Development
+        caption: Nov 2016 – Jan 2019 · 2 yrs 3 mos · West Java, Indonesia
+        description: |
+          Product Lead for a cross-functional team of 5, driving the development and launch of a smart
+          home product suite: Replus Home (appliance control), Replus Vision (light bulb control with
+          camera detection), and Replus Meter (energy monitoring).
+
+          Secured 100+ buyers for Replus Home products within 6 months and raised $50,000 in funding
+          from investors and sponsors including UI Incubation, Ministry of Research and Technology,
+          Astra, DIGITARAYA with Nexus Southeast Asia, and Google Cloud.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Kookmin University
+        link: https://sites.google.com/a/kookmin.ac.kr/hjlee/people
+        link_text: Renewable Energy Lab
+        sub_title: M.Sc. Mechanical Engineering — Energy Data Science
+        caption: 2019 – 2021 · Seoul, South Korea · GPA 4.19 / 4.50
+        description: |
+          Specialized in Energy Data Science. Research focused on predicting Solar Photovoltaic Power
+          output using deep learning to handle the intermittent nature of solar energy for grid regulation,
+          power scheduling, and load-following production.
+
+          Relevant coursework: Data Science, Trend Forecasting, Strategic Planning, Renewable Energy,
+          Atmospheric Science.
+
+          Activities: Renewable Energy Research Group (2019–2021), International Student Fellowship (2019–2020).
+
+      - layout: left
+        title: University of Indonesia
+        link: http://www.ee.ui.ac.id/epes/emat/member/raden
+        link_text: EMAT Group
+        sub_title: B.Eng. Electrical Engineering — Power Engineering
+        caption: 2015 – 2019 · Depok, Indonesia · GPA 3.44 / 4.00
+        description: |
+          Specialized in Power Engineering. Research assistant at the Electric Power and Energy Materials
+          (EMAT) group, focusing on power systems and renewable energy.
+
+          Published 2 conference papers: "Optimization Study of Renewable Energy Based Power Plants in
+          Bali's Nusa Penida Island Electrical System" and "Performance Analysis of Solar-Powered
+          Submersible DC Pump".
+
+          Relevant coursework: Electric Power Engineering, Renewable Energy, Project Leadership,
+          Entrepreneurship.
+
+          Activities: EMAT Research Group (2018–2019), IEEE Student Branch UI (2018–2019),
+          Electrical Engineering Student Council (2016–2017), Robotics Team — Abu Robocon (2015–2017).
+
+  - title: Publications & Conferences
+    layout: list
+    content:
+      - layout: left
+        title: Research Output
+        additional_links:
+          - title: Google Scholar
+            icon: fas fa-book
+            url: https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en
+        description: |
+          **International Journals (3)**
+          - Machine learning applications in renewable energy forecasting (Kookmin University, 2019–2021)
+          - Solar PV power prediction using deep learning models
+          - Energy data science applications in power systems
+
+          **Conference Papers (7+)**
+          - 7 international conferences on ML applications in the energy sector
+          - "Optimization Study of Renewable Energy Based Power Plants in Bali's Nusa Penida Island Electrical System"
+          - "Performance Analysis of Solar-Powered Submersible DC Pump"
+
+          View full list on [Google Scholar](https://scholar.google.com/citations?user=FnMigTUAAAAJ&hl=en)
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
