@@ -2,237 +2,218 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
-
 @import 'modern-resume-theme';
 
-// ─── Base typography ───────────────────────────────────────────────────────────
+// ─── Google Fonts ──────────────────────────────────────────────────────────────
+// Loaded via link tag override in _includes if needed;
+// here we declare the stack and let Roboto fall through or be replaced.
+
+// ─── Base ──────────────────────────────────────────────────────────────────────
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 15px;
   line-height: 1.75;
-  color: #1a1a2e;
-  background-color: #f8f9fc;
+  background-color: #f4f6fb;
+  color: #1e2433;
 }
 
-// ─── Header / name bar ─────────────────────────────────────────────────────────
-#header {
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
-  padding: 36px 40px 32px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+// ─── Header bar (.header-container) ───────────────────────────────────────────
+.header-container {
+  background: linear-gradient(135deg, #0d1b2e 0%, #1a3556 100%) !important;
+  padding: 36px 40px 30px !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.22);
 
-  .header-title {
-    h1 {
-      font-family: 'Playfair Display', Georgia, serif;
-      font-size: 2.4rem;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      color: #ffffff;
-      margin-bottom: 4px;
-    }
+  h1 {
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.3px;
+    color: #ffffff !important;
+    margin-bottom: 6px !important;
+  }
 
-    h2 {
-      font-size: 1rem;
-      font-weight: 400;
-      color: #94b4d1;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
+  h2 {
+    font-size: 0.95rem !important;
+    font-weight: 400 !important;
+    color: #90b4d8 !important;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+  }
+
+  // Social icon buttons
+  .button--sacnite {
+    background: rgba(255,255,255,0.08) !important;
+    border: 1px solid rgba(255,255,255,0.18) !important;
+    color: #a8c8e8 !important;
+    transition: background 0.2s, color 0.2s, transform 0.2s !important;
+
+    &:hover {
+      background: rgba(255,255,255,0.18) !important;
+      color: #ffffff !important;
+      transform: translateY(-2px);
     }
   }
 
-  .header-contact {
-    color: #cbd5e1;
-    font-size: 0.85rem;
-
+  .header-right {
     p, a {
-      color: #94b4d1;
-
-      &:hover {
-        color: #ffffff;
-      }
+      color: #90b4d8 !important;
+      font-size: 0.85rem;
     }
 
-    .icons {
-      a {
-        color: #94b4d1;
-        font-size: 1.3rem;
-        margin-left: 12px;
-        transition: color 0.2s ease, transform 0.2s ease;
-
-        &:hover {
-          color: #ffffff;
-          transform: translateY(-2px);
-        }
-      }
+    a:hover {
+      color: #ffffff !important;
+      text-decoration: none;
     }
   }
 }
 
-// ─── Page wrapper ──────────────────────────────────────────────────────────────
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-// ─── Section headings ──────────────────────────────────────────────────────────
-.container-block {
+// ─── Section containers ────────────────────────────────────────────────────────
+.intro-container,
+.list-container {
   background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-  padding: 40px 48px;
-  margin: 32px 0;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  padding: 36px 44px !important;
+  margin-bottom: 24px !important;
+}
 
-  h2.section-title {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #0f172a;
-    margin-bottom: 28px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid #e2e8f0;
-    position: relative;
+// ─── Section titles (h3 in theme) ─────────────────────────────────────────────
+.intro-container h3,
+.list-container h3 {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #0d1b2e !important;
+  margin-bottom: 28px !important;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e8ecf2;
+  position: relative;
 
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: -2px;
-      left: 0;
-      width: 48px;
-      height: 2px;
-      background: #2563eb;
-    }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 44px;
+    height: 2px;
+    background: #2563eb;
   }
 }
 
-// ─── About section ─────────────────────────────────────────────────────────────
-#about {
-  .about-profile-image {
-    img {
-      border-radius: 50%;
-      border: 4px solid #e2e8f0;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-      width: 130px;
-      height: 130px;
-      object-fit: cover;
-    }
-  }
-
-  .about-body {
-    p {
-      color: #374151;
-      font-size: 0.95rem;
-      line-height: 1.8;
-      margin-bottom: 12px;
-    }
-  }
+// ─── Profile image ─────────────────────────────────────────────────────────────
+.profile-img {
+  border-radius: 50% !important;
+  border: 4px solid #dde4ef !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.14) !important;
+  width: 130px !important;
+  height: 130px !important;
 }
 
-// ─── Experience / Education list entries ───────────────────────────────────────
-.experience-item, .education-item {
-  border-left: 3px solid #e2e8f0;
-  padding-left: 20px;
-  margin-bottom: 32px;
-  transition: border-color 0.2s ease;
+// ─── About body text ───────────────────────────────────────────────────────────
+.intro-container p {
+  color: #374151;
+  font-size: 0.94rem;
+  line-height: 1.85;
+  margin-bottom: 10px;
+}
+
+// ─── Experience / Education rows ───────────────────────────────────────────────
+.list-container .row.layout {
+  padding: 20px 0;
+  border-bottom: 1px solid #f0f2f7;
+  transition: background 0.15s;
+
+  &:last-child {
+    border-bottom: none;
+  }
 
   &:hover {
-    border-left-color: #2563eb;
+    background: #f8faff;
+    border-radius: 8px;
   }
 
-  h3 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: #0f172a;
-    margin-bottom: 2px;
+  // Left column: company name + role + date
+  .details {
+    h4 {
+      font-size: 1.05rem !important;
+      font-weight: 700 !important;
+      color: #0d1b2e !important;
+      margin-bottom: 2px !important;
+    }
+
+    p {
+      font-size: 0.85rem;
+      color: #4b5563;
+      line-height: 1.5;
+      margin-bottom: 2px;
+
+      b {
+        font-weight: 600;
+        color: #1e3a5f;
+      }
+    }
   }
 
-  h4 {
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: #2563eb;
-    margin-bottom: 4px;
-  }
+  // Right column: description
+  .content {
+    p {
+      font-size: 0.9rem;
+      color: #374151;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
 
-  .date {
-    font-size: 0.8rem;
-    color: #6b7280;
-    font-weight: 400;
-    margin-bottom: 8px;
-  }
-
-  .quote {
-    font-style: italic;
-    color: #6b7280;
-    font-size: 0.88rem;
-    margin-bottom: 10px;
-    padding: 8px 14px;
-    background: #f1f5f9;
-    border-radius: 6px;
-  }
-
-  p {
-    font-size: 0.9rem;
-    color: #374151;
-    line-height: 1.75;
+    // Quote/summary line
+    p.quote {
+      font-style: italic;
+      color: #5a6a82;
+      font-size: 0.875rem;
+      background: #f0f5ff;
+      border-left: 3px solid #2563eb;
+      border-radius: 0 6px 6px 0;
+      padding: 8px 14px;
+      margin-bottom: 14px;
+    }
   }
 }
 
-// ─── Additional links icons ─────────────────────────────────────────────────────
+// ─── Additional links ──────────────────────────────────────────────────────────
 .additional-links {
   a {
-    color: #2563eb;
     font-size: 1.3rem;
+    color: #2563eb !important;
     transition: color 0.2s, transform 0.2s;
 
     &:hover {
-      color: #1d4ed8;
+      color: #1d4ed8 !important;
       transform: translateY(-2px);
     }
 
-    i {
-      font-size: 1.3rem;
-    }
-
-    span {
-      font-size: 0.82rem;
-    }
-  }
-}
-
-// ─── Publications bullet lists ─────────────────────────────────────────────────
-ul {
-  padding-left: 20px;
-
-  li {
-    font-size: 0.9rem;
-    color: #374151;
-    line-height: 1.7;
-    margin-bottom: 4px;
+    i { font-size: 1.3rem; }
+    span { font-size: 0.82rem; }
   }
 }
 
 // ─── Footer ────────────────────────────────────────────────────────────────────
-#footer {
-  background: #0f172a;
-  color: #64748b;
-  font-size: 0.8rem;
-  padding: 20px 0;
-  margin-top: 48px;
+.footer-container {
+  background: #0d1b2e !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 20px 40px !important;
+  margin-top: 8px !important;
 
-  a {
-    color: #94a3b8;
+  p, a {
+    color: #64748b !important;
+    font-size: 0.8rem;
+  }
 
-    &:hover {
-      color: #ffffff;
-    }
+  a:hover {
+    color: #94a3b8 !important;
   }
 }
 
-// ─── Links global ──────────────────────────────────────────────────────────────
-a {
+// ─── Global links ──────────────────────────────────────────────────────────────
+.page-content a {
   color: #2563eb;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.2s;
 
   &:hover {
     color: #1d4ed8;
@@ -243,12 +224,14 @@ a {
 // ─── Dividers ──────────────────────────────────────────────────────────────────
 hr {
   border: none;
-  border-top: 1px solid #e2e8f0;
-  margin: 28px 0;
+  border-top: 1px solid #e8ecf2;
+  margin: 24px 0;
 }
 
-// ─── Bold text ─────────────────────────────────────────────────────────────────
-strong, b {
-  font-weight: 600;
-  color: #0f172a;
+// ─── Lists ────────────────────────────────────────────────────────────────────
+ul li {
+  font-size: 0.9rem;
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 4px;
 }
